@@ -11,9 +11,9 @@ This package contains a set of useful functions for data munging, quality contro
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/nationalparkservice/QCkit/}
-  \item \url{https://nationalparkservice.github.io/QCkit/}
-  \item Report bugs at \url{https://nationalparkservice.github.io/QCkit/}
+  \item \url{https://github.com/doi-nps/QCkit/}
+  \item \url{https://doi-nps.github.io/QCkit/}
+  \item Report bugs at \url{https://doi-nps.github.io/QCkit/}
 }
 
 }
@@ -23,7 +23,6 @@ Useful links:
 Authors:
 \itemize{
   \item Judd Patterson \email{judd_patterson@nps.gov} (\href{https://orcid.org/0000-0002-0951-7917}{ORCID})
-  \item Joe DeVivo
   \item Issac Quevedo (\href{https://orcid.org/0000-0003-0129-981X}{ORCID})
   \item Sarah Wright (\href{https://orcid.org/0009-0004-5060-2189}{ORCID})
 }

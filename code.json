@@ -1,0 +1,46 @@
+[
+  {
+    "name": "QCkit",
+    "organization": "NATIONAL PARK SERVICE",
+    "description": "NPS Inventory and Monitoring Quality Control Toolkit.",
+    "version": "1.2.0",
+    "status": "ongoing development",
+    "permissions": {
+      "usageType": "openSource",
+      "licenses": [
+        {
+          "name": "Public Domain, CC0-1.0",
+          "URL": "https://github.com/DOI-NPS/QCkit"
+        }
+      ]
+    },
+    "homepageURL": "https://github.com/DOI-NPS/QCkit",
+    "downloadURL": "https://github.com/DOI-NPS/QCkit",
+    "disclaimerURL": "hhtps://github.com/DOI-NPS/QCkit/blob/main/LICENSE",
+    "repositoryURL": "https://github.com/DOI-NPS/QCkit",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+      "NRSS",
+      "IMD",
+      "data-science",
+      "quality-control",
+      "r",
+      "rstats",
+      "r-package",
+      "darwin-core",
+      "data-quality",
+      "npsdataverse"
+    ],
+    "languages": [
+      "R"
+    ],
+    "contact": {
+      "name": "Robert Baker",
+      "email": "robert_baker@nps.gov"
+    },
+    "date": {
+      "metadataLastUpdated": "2026-04-22"
+    }
+  }
+]

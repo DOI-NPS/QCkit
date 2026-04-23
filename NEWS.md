@@ -1,4 +1,7 @@
 # QCkit v1.2.1
+## 2026-04-22
+  * Update URLs and documentation; add code.json file inpreparation for DGEC migration.
+  
 ## 2026-02-26
   * update `get_elevation` to handle unpredictable API responses for invalid lat/long values.
   * update unit tests to pass using DataStore v8 API

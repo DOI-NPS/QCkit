@@ -30,26 +30,26 @@ Upon submission for publication, the .docx file will be ingested by EXstyles, co
 
 # How to Start a DRR
 
-1.  **To start your DRR you will need all of your data in flat .csv files**. All quality assurance, quality control, and quality flagging should be completed. Ideally you have already created or are in the process of creating a data package (see the [documentation](https://nationalparkservice.github.io/EMLeditor/articles/a02_EML_creation_script.html) associated with the R package [EMLeditor](https://nationalparkservice.github.io/EMLeditor/index.html) for data package creation). All of the .csv files you want to describe in the DRR should be in a single folder with **no additional .csv files** (other files such as .txt and .xml will be ignored). This folder can be the same folder you used/are using to create a data package.
+1.  **To start your DRR you will need all of your data in flat .csv files**. All quality assurance, quality control, and quality flagging should be completed. Ideally you have already created or are in the process of creating a data package (see the [documentation](https://doi-nps.github.io/EMLeditor/articles/a02_EML_creation_script.html) associated with the R package [EMLeditor](https://doi-nps.github.io/EMLeditor/index.html) for data package creation). All of the .csv files you want to describe in the DRR should be in a single folder with **no additional .csv files** (other files such as .txt and .xml will be ignored). This folder can be the same folder you used/are using to create a data package.
 
 2.  **Using Rstudio, open an R project** (Select: File \> New Project...) in the same folder as your .csv files. If you already have an R project (.Rproj) initiated from creating a data package, you can use that same R project.
 
-3.  **Install, update (if necessary), and load the QCkit R package**. QCkit can be installed either as a component of the [NPSdataverse](https://nationalparkservice.github.io/NPSdataverse/) or on its own. The benefits of installing the entire NPSdataverse is that upon loading the NPSdataverse, you will automatically be informed if there are any updates to QCkit (or any of the constituent packages). The downside to installing and loading the NPSdataverse is that the first time you install it the process can be lengthy (there are many dependencies) and you may hit the GitHub.com API rate limit. Either installation is from GitHub.com and requires the devtools package to install.
+3.  **Install, update (if necessary), and load the QCkit R package**. QCkit can be installed either as a component of the [NPSdataverse](https://doi-nps.github.io/NPSdataverse/) or on its own. The benefits of installing the entire NPSdataverse is that upon loading the NPSdataverse, you will automatically be informed if there are any updates to QCkit (or any of the constituent packages). The downside to installing and loading the NPSdataverse is that the first time you install it the process can be lengthy (there are many dependencies) and you may hit the GitHub.com API rate limit. Either installation is from GitHub.com and requires the devtools package to install.
 
-```{r install_devtools, eval = FALSE, echo = TRUE}
-# Install the devtools package, if you don't already have it:
-install.packages("devtools")
+```{r install_remotes, eval = FALSE, echo = TRUE}
+# Install the remotes package, if you don't already have it:
+install.packages("remotes")
 ```
 
 ```{r install_NPSdataverse, eval = FALSE, echo = TRUE}
 # Install and load QCkit via NPSdataverse:
-devtools::install_github("nationalparkservice/NPSdataverse")
+remotes::install_github("doi-nps/NPSdataverse")
 library(NPSdataverse)
 ```
 
 ```{r install_QCkit, eval = FALSE, echo = TRUE}
 # Alternatively, install and load just QCkit:
-devtools::install_github("nationalparkservice/QCkit")
+remotes::install_github("doi-nps/QCkit")
 library(QCkit)
 ```
 

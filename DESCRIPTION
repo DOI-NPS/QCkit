@@ -13,9 +13,6 @@ Authors@R: c(
            email = "judd_patterson@nps.gov",
            role = "aut",
            comment = c(ORCID = "0000-0002-0951-7917")),
-  person(given = "Joe",
-           family = "DeVivo",
-           role = "aut"),
   person(given = "Issac",
            family = "Quevedo",
            role = "aut",
@@ -73,7 +70,7 @@ Suggests:
     wk,
     tidyr
 VignetteBuilder: knitr
-URL: https://github.com/nationalparkservice/QCkit/, https://nationalparkservice.github.io/QCkit/
-BugReports: https://nationalparkservice.github.io/QCkit/
+URL: https://github.com/doi-nps/QCkit/, https://doi-nps.github.io/QCkit/
+BugReports: https://doi-nps.github.io/QCkit/
 Config/testthat/edition: 3
 Roxygen: list(markdown = TRUE)

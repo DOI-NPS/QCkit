@@ -12,13 +12,13 @@ csl: national-park-service-DRR.csl
 For more information on using this template, please see the accompanying documentation at: 
 
 Overview of DRR Templates:
-https://nationalparkservice.github.io/QCkit/articles/DRR_Purpose_and_Scope.html
+https://doi-nps.github.io/QCkit/articles/DRR_Purpose_and_Scope.html
 
 How to access this template initiate a DRR:
-https://nationalparkservice.github.io/QCkit/articles/Starting-a-DRR.html
+https://doi-nps.github.io/QCkit/articles/Starting-a-DRR.html
 
 Specific Instructions on filling out this template:
-https://nationalparkservice.github.io/QCkit/articles/Using-the-DRR-Template.html
+https://doi-nps.github.io/QCkit/articles/Using-the-DRR-Template.html
 --->
 ```
 ```{r user_edited_parameters, include=FALSE}
